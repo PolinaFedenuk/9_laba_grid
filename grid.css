@@ -1,0 +1,44 @@
+.offer-list {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 87px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  align-items: start;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 28px;
+}
+.menu__item {
+  align-self: start;
+}
+
+.banner__inner {
+  display: grid;
+  justify-content: end;
+}
+
+.footer .container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.detail__inner {
+  display: grid;
+  grid-template-columns: 2fr auto;
+  gap: 30px;
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  justify-content: space-between;
+}
